@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Irrigador automatico">
+    <title>Irrigador automático</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main class="container-main">
+        <h1 class="title">Irrigador automático</h1>
+        <div>
+            <h2>Umidade do Solo:</h2>
+            <div id="loader" class="hide"></div>
+            <p id="value" class="value" style="word-wrap: break-word;"></p>
+        </div>
+        <div>
+            <button id="btn-atualizar" type="button" class="btn1" onclick="trazerDados()">
+                <p id="btn-txt-atualizar" class="">Atualizar dados</p>
+            </button>
+            <!-- <button id="btn-regar" type="button" class="btn1" onclick="regar()">
+                <p id="btn-txt-regar" class="">Clique para regar</p>
+            </button> -->
+        </div>
+    </main>
+    <footer style="margin-top: 30px;">
+        <p class="txt-about">Projeto de Fundamentos da Computação - UFOPA, BSI 2023.1</p>
+        <p class="txt-about">Desenvolvido por: <a href="https://github.com/lucasliberal" target="_blank" rel="noopener noreferrer">Lucas Moura Liberal</a>, Zaquel de Jesus Feliz Navegantes</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
